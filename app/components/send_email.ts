@@ -1,8 +1,7 @@
 "use server";
 import { Resend } from 'resend';
-import { toast } from 'react-toastify';
 
-const resend = new Resend('re_5hzKnh9E_CeSdwC8THJRMi9j51Q8VVwGt');
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 const validateString = (value : unknown) => {
     if(!value || typeof value !== "string"){
