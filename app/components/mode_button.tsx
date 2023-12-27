@@ -10,7 +10,7 @@ import { Tooltip } from "react-tooltip";
 type Theme = "light" | "dark";
 
 const Mode = () => {
-  const [theme, setTheme] = useState<Theme>("dark");
+  const [theme, setTheme] = useState<Theme>("light");
   useEffect(() => {
     const theme = localStorage.getItem("theme") as Theme | null;
     if (theme) {
