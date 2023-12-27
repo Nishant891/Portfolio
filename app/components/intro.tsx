@@ -30,7 +30,7 @@ const Intro = () => {
           <span className="italic text-lg sm:text-xl md:text-3xl">
             I like to learn and apply.
           </span>
-          <div className="h-auto lg:w-1/2 w-full mt-4 flex lg:justify-start justify-center items-center gap-3 text-center lg:text-start text-lg sm:text-xl md:text-2xl">
+          <div className="h-auto lg:w-1/2 w-full mt-4 flex lg:justify-start justify-center items-center gap-3 text-center lg:text-start text-xl sm:text-xl md:text-2xl">
             <motion.a
               initial={{ opacity: 0, scale: 0 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -47,7 +47,7 @@ const Intro = () => {
             >
               <FaGithub />
             </motion.a>
-            <Tooltip id="github-tooltip" className="text-sm" />
+            <Tooltip id="github-tooltip" className="text-sm hidden sm:block" />
             <motion.a
               initial={{ opacity: 0, scale: 0 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -64,7 +64,7 @@ const Intro = () => {
             >
               <FaXTwitter />
             </motion.a>
-            <Tooltip id="twitter-tooltip" className="text-sm" />
+            <Tooltip id="twitter-tooltip" className="text-sm hidden sm:block" />
             <motion.a
               initial={{ opacity: 0, scale: 0 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -81,7 +81,7 @@ const Intro = () => {
             >
               <FaLinkedin />
             </motion.a>
-            <Tooltip id="linkedIn-tooltip" className="text-sm" />
+            <Tooltip id="linkedIn-tooltip" className="text-sm hidden sm:block" />
             <a href="/Resume.pdf" target="blank">
               <motion.button
                 initial={{ opacity: 0, scale: 0 }}

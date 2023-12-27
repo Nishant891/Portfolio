@@ -9,7 +9,6 @@ import { FaSquareGithub } from "react-icons/fa6";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { GoDotFill } from "react-icons/go";
 import { ReactNode } from "react";
-import { Tooltip } from "react-tooltip";
 
 type ProjectProps = {
   id: number;
@@ -97,7 +96,6 @@ const Project = ({
                     <tag.icon size={26} />
                   </li>
                 </a>
-                <Tooltip id={`${tag.name}-tooltip`} />
               </>
             ))}
           </ul>
