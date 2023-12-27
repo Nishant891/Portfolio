@@ -1,5 +1,4 @@
 "use client";
-
 import React from "react";
 import { tags } from "@/lib/data";
 import { motion } from "framer-motion";

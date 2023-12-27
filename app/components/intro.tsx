@@ -6,6 +6,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFileDownload } from "react-icons/fa";
+import Image from "next/image";
 
 const Intro = () => {
   return (
@@ -20,7 +21,7 @@ const Intro = () => {
           animate={{ opacity: 1, y: 0 }}
         >
           <span className="font-bold text-2xl sm:text-4xl md:text-4xl mb-4">
-            Hello, I'm Nishant.
+            Hello, I&apos;m Nishant.
           </span>
           <span className="font-bold text-xl sm:text-3xl md:text-3xl mb-3">
             I am an <span className="text-green-500">Indie Hacker</span> and a{" "}
@@ -110,10 +111,14 @@ const Intro = () => {
               duration: 0.2,
             }}
           >
-            <img
+            <Image
+              alt="Profile Picture"
+              quality={95}
               className="w-[16rem] h-[16rem] rounded-full border-4 border-gray-300 object-cover shadow-lg shadow-black/[0.03]"
-              src="profilePic.jpg"
-            />
+              src="/profilePic.jpg"
+              width={16*16} 
+              height={16*16}
+            ></Image>
           </motion.div>
 
           <motion.span

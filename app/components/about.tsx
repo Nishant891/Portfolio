@@ -15,7 +15,7 @@ export default function About() {
       <h1 className="text-3xl mb-6 font-bold">About me</h1>
       <p className="mb-3 mt-10">
         <span className="font-bold">
-          I am currently pursuing a Bachelor's degree
+          I am currently pursuing a Bachelor&apos;s degree
         </span>{" "}
         in <span className="italic">Computer Science and Engineering.</span> In
         the early stages of my academic journey, I delved into{" "}
@@ -29,7 +29,7 @@ export default function About() {
         <span className="text-purple-500">
           React, Tailwind CSS, Node.js, and Next.js
         </span>
-        . Actively participating in numerous hackathons, I've been involved in
+        . Actively participating in numerous hackathons, I&apos;ve been involved in
         creating projects that showcase my practical skills. I was a <span className="font-bold">Project Management Head</span>{" "}
         in the core group of <span className="underline">GDSC (Google Developer Students Club)</span>.
       </p>

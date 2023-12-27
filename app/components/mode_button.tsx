@@ -21,7 +21,7 @@ const Mode = () => {
         document.documentElement.classList.add("dark");
       }
     }
-  });
+  },[]);
   return (
     <div>
       <motion.button
