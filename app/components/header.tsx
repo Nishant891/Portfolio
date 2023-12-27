@@ -1,5 +1,4 @@
 "use client";
-
 import React from "react";
 import { motion } from "framer-motion";
 import { links } from "@/lib/data";
@@ -13,7 +12,7 @@ export default function Header() {
         initial={{ y: -100, x: "-50%", opacity: 0 }}
         animate={{ y: 0, x: "-50%", opacity: 1 }}
       >
-        <ul className="flex w-full flex-wrap items-center justify-center text-gray-600 gap-3 sm:w-[initial] sm:flex-nowrap sm:gap-5">
+        <ul className="flex w-full flex-wrap items-center justify-center text-gray-600 gap-2 sm:w-[initial] sm:flex-nowrap sm:gap-5">
           {links.map((link) => {
             return (
               <li
